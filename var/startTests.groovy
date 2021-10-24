@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 def call(Map<String, String> params) {
     //assert params["runId"]
 
