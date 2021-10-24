@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-def call(String name = 'human') {
+def call() {
     //assert params["runId"]
 
     //def threadsCount = params["threadsCount"] ?: "8"
