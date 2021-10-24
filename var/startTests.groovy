@@ -4,7 +4,6 @@ def call(Map<String, String> params) {
     //def threadsCount = params["threadsCount"] ?: "8"
     //def testList = params["testList"] ?: "*Test"
     //def runId = params["runId"]
-    stages {
             stage("start test job") {
             // build job: 'QA/TestJob',
             //         parameters: [string(name: 'threadsCount', value: threadsCount),
@@ -23,5 +22,5 @@ def call(Map<String, String> params) {
             //     }
             //     echo failedTestsString
             // }
-         }
+
 }
