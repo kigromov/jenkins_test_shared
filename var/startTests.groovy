@@ -1,6 +1,3 @@
-#!groovy
-import hudson.tasks.test.AbstractTestResultAction
-import hudson.tasks.junit.CaseResult
 def call(Map<String, String> params) {
     //assert params["runId"]
 
