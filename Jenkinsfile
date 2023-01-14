@@ -1,7 +1,9 @@
 pipeline {
   agent {
-    docker { image 'node:16-alpine' }
-  }
+      docker {
+        label 'windows'
+        image 'python:3.7'
+    }
   stages {
     stage('Test') {
       steps {
